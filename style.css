@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Eczar, serif;
+}
+
+body {
+  background-color: rgb(241, 241, 241);
+}
+
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  color: aliceblue;
+  padding: 5px 15px;
+
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+.trybewarts-login input {
+  align-self: center;
+  height: 20px;
+  border: white;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.btn-login {
+  align-self: center;
+  height: 40px;
+  width: 150px;
+  border: white;
+  border-radius: 10px;
+  background-color: rgb(86, 22, 155);
+  padding: 10px;
+  color: white;
+}
+
+.btn-login:hover {
+  background-color: rgb(53, 12, 96);
+}
+
+main {
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 10%;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+}
+
+.container-nome-sobrenome input {
+  margin-bottom: 15px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  align-self: center;
+  flex-grow: 1;
+  margin-left: 80px;
+}
+
+h2 {
+  margin: 15px auto;
+}
+
+.label-rate input {
+  margin-left: 14px;
+}
+
+#evaluation-form input {
+  border: white;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 0.8em;
+  padding: 10px;
+  padding-right: 160px;
+}
+
+#evaluation-form select {
+  border: white;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 0.8em;
+  padding: 10px;
+  padding-right: 210px;
+}
+
+.label-rate {
+  margin-bottom: 20px;
+}
+
+.container-familia-conteudo {
+  display: flex;
+}
+
+.container-familia {
+  width: 30%;
+}
+
+.container-conteudo {
+  width: 48%;
+  margin-left: 50px;
+}
+
+.container-conteudo label {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+hr {
+  margin: 20px 0;
+  width: 90%;
+}
+
+#submit-btn {
+  width: 715px;
+  border: white;
+  border-radius: 10px;
+  background-color: rgb(86, 22, 155);
+  padding: 10px;
+  color: white;
+}
+
+#submit-btn:hover {
+  background-color: rgb(53, 12, 96);
+}
+
+#submit-btn:disabled {
+  background-color: rgb(117, 117, 117);
+}
+
+textarea {
+  width: 715px;
+  height: 100px;
+  border-radius: 4px;
+  resize: none;
+  font-size: large;
+}
+
+span {
+  position: relative;
+  margin-left: 675px;
+  margin-top: -31px;
+}
+
+#label-infos {
+  margin: 10px 0;
+}
+
+footer {
+  background-color: rgb(73, 73, 73);
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 4px 0;
+  margin-top: 25px;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
